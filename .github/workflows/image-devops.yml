@@ -4,7 +4,7 @@ on:
   release:
     types: [created]
 env:
-  IMAGE_NAME: devops-laba3-image
+  IMAGE_NAME: image2
 
 jobs:
   call_workflow_build_and_test:
